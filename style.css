@@ -1,0 +1,58 @@
+#header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#btn {
+    align-items: center;
+    margin-top: 200px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #d4af37;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+@media all and (max-width: 500px) {
+    #btn-container{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
